@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>نصائح عملية | فلوسك وصحتك</title>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-HQZ866VQHD"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-HQZ866VQHD');
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@600;800&family=Tajawal:wght@300;400;500;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#F7F4EC; --cream-2:#EDE7D6; --sage:#7C9473; --gold:#C9A227;
+    --teal:#2E4A45; --ink:#232019; --ink-soft:#66604F; --line: rgba(35,32,25,0.14);
+    box-sizing:border-box;
+    padding-top: env(safe-area-inset-top,0px);
+    padding-bottom: env(safe-area-inset-bottom,0px);
+  }
+  @media (prefers-color-scheme: dark){
+    :root:not([data-theme="light"]){
+      --cream:#1B1A15; --cream-2:#232019; --sage:#9CB791; --gold:#E0BB4F;
+      --teal:#B9D6CE; --ink:#EFE9DA; --ink-soft:#B7AF9B; --line: rgba(239,233,218,0.16);
+    }
+  }
+  :root[data-theme="dark"]{
+    --cream:#1B1A15; --cream-2:#232019; --sage:#9CB791; --gold:#E0BB4F;
+    --teal:#B9D6CE; --ink:#EFE9DA; --ink-soft:#B7AF9B; --line: rgba(239,233,218,0.16);
+  }
+  html,body{height:100%;}
+  html{scroll-padding-top: env(safe-area-inset-top,0px);}
+  *{box-sizing:border-box;}
+  body{ margin:0; background:var(--cream); color:var(--ink); font-family:'Tajawal',sans-serif; line-height:1.75; overflow-x:hidden; }
+  a{color:inherit; text-decoration:none;}
+  h1,h2,h3{ font-family:'Cairo',sans-serif; margin:0 0 .3em; color:var(--teal); font-weight:800; }
+  .wrap{max-width:980px; margin:0 auto; padding:0 24px;}
+
+  header{ position:sticky; top:0; z-index:30; background:var(--cream); border-bottom:1px solid var(--line); padding-top:env(safe-area-inset-top,0px); }
+  nav.wrap{ display:flex; align-items:center; justify-content:space-between; padding:16px 24px; }
+  .brand{ font-family:'Cairo',sans-serif; font-weight:800; font-size:1.3rem; color:var(--teal); }
+  .navlinks{ display:flex; gap:4px; }
+  .navlinks a{ font-family:'Tajawal'; font-size:.95rem; font-weight:500; padding:9px 18px; color:var(--ink-soft); border-bottom:2px solid transparent; }
+  .navlinks a.active{ color:var(--gold); border-bottom-color:var(--gold); }
+
+  .page-head{ padding:56px 0 10px; }
+  .page-head p{ color:var(--ink-soft); max-width:52ch; }
+
+  .group{ padding:30px 0; }
+  .group h2{ display:flex; align-items:center; gap:10px; font-size:1.4rem; }
+  .group h2 .dot{ width:14px; height:14px; border-radius:50%; }
+  .group.money h2 .dot{ background:var(--gold); }
+  .group.health h2 .dot{ background:var(--sage); }
+
+  .tips{ display:grid; grid-template-columns:repeat(2,1fr); gap:16px; margin-top:20px; }
+  .tip{ background:var(--cream-2); border-radius:12px; padding:20px; border-right:4px solid var(--line); }
+  .group.money .tip{ border-right-color:var(--gold); }
+  .group.health .tip{ border-right-color:var(--sage); }
+  .tip p{ margin:0; color:var(--ink-soft); font-size:.95rem; }
+
+  .link-note{ background:var(--teal); color:var(--cream); border-radius:16px; padding:34px; margin:40px 0 60px; text-align:center; }
+  .link-note h3{ color:var(--cream); }
+  .link-note p{ color:var(--cream-2); opacity:.9; max-width:50ch; margin:0 auto; }
+
+  footer{ padding:30px 0 50px; text-align:center; color:var(--ink-soft); font-size:.88rem; }
+
+  @media (max-width:760px){
+    .tips{ grid-template-columns:1fr; }
+    nav.wrap{ flex-direction:column; gap:10px; padding:14px; }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <nav class="wrap">
+    <div class="brand">فلوسك وصحتك</div>
+    <div class="navlinks">
+      <a href="index.html">الرئيسية</a>
+      <a href="tips.html" class="active">نصائح عملية</a>
+    </div>
+  </nav>
+</header>
+
+<section class="wrap">
+  <div class="page-head">
+    <h1>نصائح عملية</h1>
+    <p>خطوات بسيطة تقدرين تبدئين فيها اليوم، بدون تعقيد وبدون تكلفة كبيرة.</p>
+  </div>
+
+  <div class="group money">
+    <h2><span class="dot"></span> نصائح للتوفير</h2>
+    <div class="tips">
+      <div class="tip"><p>حددي ميزانية شهرية وقسّميها لفئات: ضروريات، ترفيه، وادخار.</p></div>
+      <div class="tip"><p>قاعدة "24 ساعة" قبل أي شراء غير ضروري — لو نسيتيه بعد يوم، ماكنتِ محتاجته.</p></div>
+      <div class="tip"><p>تتبعي مصاريفك الصغيرة (قهوة، توصيل) — هذي أكثر شي يستنزف الميزانية بصمت.</p></div>
+      <div class="tip"><p>خصصي نسبة ثابتة من أي دخل للادخار قبل الصرف، مو بعده.</p></div>
+    </div>
+  </div>
+
+  <div class="group health">
+    <h2><span class="dot"></span> نصائح لحياة صحية</h2>
+    <div class="tips">
+      <div class="tip"><p>امشي 20-30 دقيقة يوميًا، ما تحتاجين نادي رياضي عشان تبدئين.</p></div>
+      <div class="tip"><p>اشربي ماء قبل كل وجبة، يساعد على الهضم والشعور بالشبع.</p></div>
+      <div class="tip"><p>نامي بمواعيد ثابتة، النوم المنتظم يأثر على الصحة أكثر من عدد الساعات نفسه.</p></div>
+      <div class="tip"><p>جهزي وجبات بيتك بنفسك 3-4 مرات بالأسبوع بدل التوصيل.</p></div>
+    </div>
+  </div>
+
+  <div class="link-note">
+    <h3>نقطة ربط بين الاثنين</h3>
+    <p>لما تطبخين ببيتك بدل التوصيل، توفرين فلوس وتاكلين صحي بنفس الوقت — عادة وحدة، فايدتين.</p>
+  </div>
+</section>
+
+<footer>موقع "فلوسك وصحتك"</footer>
+
+</body>
+</html>
